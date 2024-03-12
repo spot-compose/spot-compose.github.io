@@ -101,7 +101,7 @@
               <a href="https://francisengelmann.github.io/">Francis Engelmann</a>,
             </span>
             <span class="author-block">
-              <a href="https://hermannblum.net/">Hermann Blum</a>,
+              <a href="https://hermannblum.net/">Hermann Blum</a>
             </span>
           </div>
 
@@ -242,31 +242,13 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            We present the first method capable of photorealistically reconstructing a non-rigidly
-            deforming scene using photos/videos captured casually from mobile phones.
+            In recent years, modern techniques in deep learning and large-scale data sets have led to impressive progress in 3D instance segmentation, grasp pose estimation, and robotics.
+            This allows for accurate detection directly in 3D scenes, object- and environment-aware grasp prediction, as well as stable and repeatable robotic manipulation.
           </p>
           <p>
-            Our approach augments neural radiance fields
-            (NeRF) by optimizing an
-            additional continuous volumetric deformation field that warps each observed point into a
-            canonical 5D NeRF.
-            We observe that these NeRF-like deformation fields are prone to local minima, and
-            propose a coarse-to-fine optimization method for coordinate-based models that allows for
-            more robust optimization.
-            By adapting principles from geometry processing and physical simulation to NeRF-like
-            models, we propose an elastic regularization of the deformation field that further
-            improves robustness.
-          </p>
-          <p>
-            We show that <span class="dnerf">Nerfies</span> can turn casually captured selfie
-            photos/videos into deformable NeRF
-            models that allow for photorealistic renderings of the subject from arbitrary
-            viewpoints, which we dub <i>"nerfies"</i>. We evaluate our method by collecting data
-            using a
-            rig with two mobile phones that take time-synchronized photos, yielding train/validation
-            images of the same pose at different viewpoints. We show that our method faithfully
-            reconstructs non-rigidly deforming scenes and reproduces unseen views with high
-            fidelity.
+            This work aims to integrate these cutting-edge methods into a comprehensive framework for robotic interaction in human-centric environments.
+            Specifically, we leverage high-resolution point clouds from a commodity scanner for open-vocabulary instance segmentation, alongside grasp pose estimation, to demonstrate dynamic picking of objects and opening of drawers.
+            We show the performance and robustness of our model in two sets of real-world experiments evaluating dynamic object retrieval and drawer opening, reporting a 51\% and 82\% success rate respectively.
           </p>
         </div>
       </div>
