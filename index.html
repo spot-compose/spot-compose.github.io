@@ -9,7 +9,7 @@
   <title>Spot-Compose: A Framework for Open-Vocabulary Object Retrieval and Drawer Manipulation in Point Clouds</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+<!--  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>-->
   <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -33,7 +33,7 @@
   <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="./static/css/index.css">
-  <link rel="icon" href="./static/images/favicon.svg">
+<!--  <link rel="icon" href="./static/images/favicon.svg">-->
 
   <script src="./static/js/youtube-carousel.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -139,10 +139,6 @@
 </section>
 
 
-
-
-
-
 <section class="section">
   <div class="container is-max-desktop">
     <!-- Abstract -->
@@ -179,16 +175,36 @@
     </div>
   </div>
   <!-- Results -->
+  <br>
+  <br>
   <div class="container is-max-desktop">
     <div class="columns is-centered">
       <div class="column is-full-width">
-        <h2 class="title is-4">Results</h2>
+        <h2 class="title is-3">Quantitative Results</h2>
       </div>
     </div>
+    <div class="content has-text-justified">
+      <p>
+        Using <i>Spot-Compose</i> we can perform a variety of real-world tasks.
+        The quantitative results of our experiments are shown here.
+      </p>
+    </div>
+    <!-- Grasping -->
+    <h2 class="title is-4">Open-Vocabulary Object Retrieval</h2>
+    <br>
+    <div class="columns is-centered">
+      <img id="result_grasp" src="./static/images/grasping_sankey.png" alt="exp_grasp" style="width: 60%; height: auto;">
+    </div>
+    <br>
+    <!-- Drawers -->
+    <h2 class="title is-4">Dynamic Drawer Manipulation &amp; Search</h2>
+    <br>
+    <div class="columns is-centered">
+      <img id="result_drawers" src="./static/images/drawers_sankey.png" alt="exp_drawers" style="width: 60%; height: auto;">
+    </div>
+    <br>
   </div>
 </section>
-
-
 
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
