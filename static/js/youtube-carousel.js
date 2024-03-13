@@ -1,6 +1,7 @@
 const videos = [
-    "R786hJ2W3qk",
-    // Add as many video IDs as you want
+    "wNKP0TeSLVc",
+    "bGzEKbzgy2Y",
+    "zDu7lYW_ScU",
 ];
 
 let currentVideo = 0;
