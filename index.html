@@ -160,16 +160,15 @@
     </div>
     <!--/ Abstract. -->
 
-    <!-- Paper video. -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Video</h2>
-        <div class="publication-video">
-          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
-                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
+    <!-- Demo Videos. -->
+    <div class="video-slider">
+      <button id="prevVideo" onclick="changeVideo(-1)">← Prev</button>
+      <div class="video-container">
+        <iframe id="videoFrame" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
       </div>
+      <button id="nextVideo" onclick="changeVideo(1)">Next →</button>
     </div>
+
     <!--/ Paper video. -->
   </div>
 </section>
