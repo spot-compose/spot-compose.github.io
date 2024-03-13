@@ -1,7 +1,7 @@
 const videos = [
-    "FIRST_VIDEO_ID",
-    "SECOND_VIDEO_ID",
-    "THIRD_VIDEO_ID",
+    "dQw4w9WgXcQ",
+    "dQw4w9WgXcQ",
+    "dQw4w9WgXcQ",
     // Add as many video IDs as you want
 ];
 
