@@ -1,0 +1,19 @@
+.video-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-container {
+    width: 560px; /* Video width */
+    height: 315px; /* Video height */
+}
+
+button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 20px;
+    cursor: pointer;
+}
