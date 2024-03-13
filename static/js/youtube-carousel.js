@@ -1,7 +1,5 @@
 const videos = [
-    "dQw4w9WgXcQ",
-    "dQw4w9WgXcQ",
-    "dQw4w9WgXcQ",
+    "R786hJ2W3qk",
     // Add as many video IDs as you want
 ];
 
