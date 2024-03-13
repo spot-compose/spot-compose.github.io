@@ -1,7 +1,9 @@
 const videos = [
-    "wNKP0TeSLVc",
-    "bGzEKbzgy2Y",
-    "zDu7lYW_ScU",
+    "wNKP0TeSLVc", // Book Niche
+    "uaElyTMxlpU", // Drawer Success
+    "bGzEKbzgy2Y", // Cow Plushy Cabinet
+    "4qO9M6rTcHo", // Drawer Fail
+    "zDu7lYW_ScU", // Poro Niche
 ];
 
 let currentVideo = 0;
