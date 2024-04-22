@@ -4,10 +4,12 @@ This is the repository that contains source code for the [Spot-Compose website](
 
 If you find Spot-Compose useful for your work please cite:
 ```
-@article{lemke2024spotcompose,
-  author    = {Lemke, Oliver and Bauer, Zuria and Zurbr\"{u}gg, Ren\'{e} and Engelmann, Francis and Blum, Hermann},
-  title     = {Spot-Compose: A Framework for Open-Vocabulary Object Retrieval and Drawer Manipulation in Point Clouds},
-  year      = {2024},
+@inproceedings{lemke2024spotcompose,
+  title={Spot-Compose: A Framework for Open-Vocabulary Object Retrieval and Drawer Manipulation in Point Clouds},
+  author={Oliver Lemke and Zuria Bauer and Ren{\'e} Zurbr{\"u}gg and Marc Pollefeys and Francis Engelmann and Hermann Blum},
+  booktitle={2nd Workshop on Mobile Manipulation and Embodied Intelligence at ICRA 2024},
+  year={2024},
+  url={https://openreview.net/forum?id=DoKoCqOts2}
 }
 ```
 
