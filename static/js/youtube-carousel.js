@@ -1,5 +1,5 @@
 const videos = [
-    "4BRKIzyaT3o", // Teaser
+    "4BRKIzyaT3o", // Teaser Video
     "wNKP0TeSLVc", // Book Niche
     "uaElyTMxlpU", // Drawer Success
     "bGzEKbzgy2Y", // Cow Plushy Cabinet
